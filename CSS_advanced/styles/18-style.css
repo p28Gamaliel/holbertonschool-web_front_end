@@ -101,15 +101,6 @@ a:active {
     padding: var(--section-header-padding);
 }
 
-.section-body {
-    padding: var(--section-body-padding);
-}
-
-.section-footer {
-    padding: var(--section-footer-padding);
-    text-align: var(--section-footer-align);
-}
-
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
@@ -122,6 +113,16 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.section-body {
+    padding: var(--section-body-padding);
+}
+
+.section-footer {
+    padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 h1, h2, h3, h4, h5, h6 {
